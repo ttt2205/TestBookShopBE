@@ -29,8 +29,6 @@ let initWebRoutes = (app) => {
   app.use("/api/order", orderRouter);
   app.use("/api/customer", customerRouter);
   app.use("/api/forgot-password", forgotPasswordRouter);
-  // app.use("/api/discount", discountRouter);
-  app.use("/api/bill-promotion", billPromotionRouter);
   app.use("/api/promotion", promotionRouter);
 
   return app.use("/", homeRouter);
