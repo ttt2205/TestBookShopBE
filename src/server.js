@@ -22,6 +22,6 @@ initWebRoutes(app);
 const PORT = process.env.PORT || 6969;
 const HOST = process.env.LOCAL_HOST || "localhost";
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
   console.log(`App is running at the port ${PORT}`);
 });
